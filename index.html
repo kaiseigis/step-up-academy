@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ステップアップアカデミー</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">ステップアップアカデミー</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">私たちについて</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">サービス内容</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">料金</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">顧客の声</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">お問い合わせ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <section id="about">
+            <h2>私たちについて</h2>
+            <p>私たちは、中学校のテストの成績分析を専門とするビジネスです。勉強に興味がない、またはどこから始めたらよいかわからない生徒や親御さんをサポートします。データに基づいた分析と、一人ひとりに合った参考書や問題集の提案を行い、生徒の学習効果を最大化します。</p>
+        </section>
+        <section id="services">
+            <h2>サービス内容</h2>
+            <ul>
+                <li>成績の詳細な分析とレポート作成</li>
+                <li>個別の学習プランと参考書・問題集の提案</li>
+                <li>オンラインコンサルティング</li>
+                <li>塾の紹介</li>
+            </ul>
+        </section>
+        <section id="pricing">
+            <h2>料金</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>サービス</th>
+                        <th>料金</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>定期テスト成績分析 (1教科)</td>
+                        <td>¥2,500</td>
+                    </tr>
+                    <tr>
+                        <td>定期テスト成績分析 (3教科)</td>
+                        <td>¥7,000</td>
+                    </tr>
+                    <tr>
+                        <td>定期テスト成績分析 (5教科)</td>
+                        <td>¥11,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="testimonials">
+            <h2>顧客の声</h2>
+            <p>"成績分析のおかげで、息子の弱点が明確になり、効果的な学習ができるようになりました。" - 山田さん</p>
+            <p>"とても丁寧なサポートをしていただきました。ありがとうございます！" - 佐藤さん</p>
+        </section>
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">名前:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メール:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ:</label>
+                    <textarea class="form-control" id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">送信</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 ステップアップアカデミー</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
